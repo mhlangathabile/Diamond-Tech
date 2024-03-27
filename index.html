@@ -23,40 +23,42 @@
   </head>
   <body>
     <!-- Navigation Section -->
-    <div class="container navHeading">
-      <header
-        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
-      >
-        <a
-          href="/"
-          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+    <div class="header">
+      <div class="container navHeading">
+        <header
+          class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
         >
-          <svg class="bi me-2" width="40" height="32">
-            <use xlink:href="#bootstrap" />
-          </svg>
-          <span class="fs-4">Diamond Tech</span>
-        </a>
+          <a
+            href="/"
+            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+          >
+            <svg class="bi me-2" width="40" height="32">
+              <use xlink:href="#bootstrap" />
+            </svg>
+            <span class="fs-4 heading">Diamond Tech</span>
+          </a>
 
-        <ul class="nav nav-pills navigation">
-          <li class="nav-item">
-            <a href="#" class="nav-link active" aria-current="page">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#aboutUs" class="nav-link">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a href="#ourProducts" class="nav-link">Our Products</a>
-          </li>
-          <li class="nav-item">
-            <a href="#contactUs" class="nav-link">Contact Us</a>
-          </li>
-        </ul>
-      </header>
+          <ul class="nav nav-pills navigation">
+            <li class="nav-item">
+              <a href="#" class="nav-link active" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#aboutUs" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#ourProducts" class="nav-link">Our Products</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contactUs" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+        </header>
+      </div>
     </div>
 
     <!-- Hero Section -->
     <div class="px-4 pt-5 my-5 text-center border-bottom heroSection">
-      <h1 class="display-4 fw-bold text-body-emphasis">
+      <h1 class="display-4 fw-bold text-body-emphasis welcome">
         Welcome to <br />Diamond Tech
       </h1>
       <div class="col-lg-6 mx-auto">
@@ -67,7 +69,7 @@
           your tech experience.
         </p>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-          <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">
+          <button type="button" class="btn btn-dark btn-lg px-4 me-sm-3 button">
             Latest Gadgets
           </button>
         </div>
@@ -89,7 +91,7 @@
     <!-- About Section -->
     <div
       id="aboutUs"
-      class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary"
+      class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-secondary-subtle"
     >
       <div class="col-md-6 p-lg-5 mx-auto my-5">
         <h1 class="display-3 fw-bold">About Us</h1>
@@ -97,7 +99,7 @@
           At Diamond Tech, We're Shaping the Future of Electronics, One Device
           at a Time.
         </h3>
-        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">
+        <button type="button" class="btn btn-dark btn-lg px-4 me-sm-3">
           Explore More
         </button>
       </div>
@@ -110,13 +112,12 @@
     <!-- Products Section -->
     <div id="ourProducts" class="container px-4 py-5" id="custom-cards">
       <h2 class="pb-2 border-bottom">Our Products</h2>
-
       <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
         <div class="col">
           <div
             class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
             style="
-              background-image: url('Images/Asus\ ZenBook\ 13\ OLED\ UX325EA-KG798\,\ experiencia\ portátil\ Premium.jpg');
+              background-image: url('Images/ASUS\ ZenBook\ Pro\ Duo\ 15\ OLED\ UX582\ Laptop\ with\ i7-10870H\ &\ Dual\ Screens.jpg');
             "
           >
             <div
@@ -182,7 +183,7 @@
             "
           >
             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold phoneSection">
                 Smartphones & Tablets
                 <i class="fa-solid fa-mobile-screen-button fa-fade"></i>
               </h3>
@@ -207,48 +208,50 @@
     </div>
 
     <!-- Contact Us Section -->
-    <div id="contactUs" class="container col-xl-10 col-xxl-8 px-4 py-5">
-      <div class="row align-items-center g-lg-5 py-5">
-        <div class="col-lg-7 text-center text-lg-start">
-          <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">
-            Contact Us <i class="fa-solid fa-envelope"></i>
-          </h1>
+    <div class="bg-secondary-subtle">
+      <div id="contactUs" class="container col-xl-10 col-xxl-8 px-4 py-5">
+        <div class="row align-items-center g-lg-5 py-5">
+          <div class="col-lg-7 text-center text-lg-start">
+            <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">
+              Contact Us <i class="fa-solid fa-envelope"></i>
+            </h1>
 
-          <p class="col-lg-10 fs-4">
-            Let's Chat Tech! Drop Us a Line for Any Inquiries.
-          </p>
-        </div>
-        <div class="col-md-10 mx-auto col-lg-5">
-          <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
-            <div class="form-floating mb-3">
-              <input
-                type="email"
-                class="form-control"
-                id="floatingInput"
-                placeholder="name@example.com"
-              />
-              <label for="floatingInput">JohnDoe@gmail.com</label>
-            </div>
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label"
-                >Expert Assistance</label
+            <p class="col-lg-10 fs-4">
+              Let's Chat Tech! Drop Us a Line for Any Inquiries.
+            </p>
+          </div>
+          <div class="col-md-10 mx-auto col-lg-5">
+            <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="name@example.com"
+                />
+                <label for="floatingInput">JohnDoe@gmail.com</label>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Expert Assistance</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                  placeholder="Enter your message"
+                ></textarea>
+              </div>
+              <button class="w-100 btn btn-lg btn-dark" type="submit">
+                Submit
+              </button>
+              <hr class="my-4" />
+              <small class="text-body-secondary"
+                >Our experts will get in touch with you. Thank you for your
+                message.</small
               >
-              <textarea
-                class="form-control"
-                id="exampleFormControlTextarea1"
-                rows="3"
-                placeholder="Enter your message"
-              ></textarea>
-            </div>
-            <button class="w-100 btn btn-lg btn-primary" type="submit">
-              Submit
-            </button>
-            <hr class="my-4" />
-            <small class="text-body-secondary"
-              >Our experts will get in touch with you. Thank you for your
-              message.</small
-            >
-          </form>
+            </form>
+          </div>
         </div>
       </div>
     </div>

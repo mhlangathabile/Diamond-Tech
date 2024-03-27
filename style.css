@@ -1,3 +1,7 @@
+body {
+  background-color: #f7f7f7;
+}
+
 h1,
 h2 {
   font-family: "Gilda Display", serif;
@@ -5,6 +9,24 @@ h2 {
 
 h2 {
   font-size: 50px;
+}
+
+button {
+  background-color: black;
+  color: white;
+}
+
+.nav-link[href="#"] {
+  background-color: black !important;
+}
+
+.heading {
+  color: white;
+  font-size: 30px;
+}
+
+.welcome {
+  font-size: 80px;
 }
 
 p,
@@ -16,4 +38,29 @@ footer {
 
 .navigation {
   font-size: 22px;
+}
+
+.navigation a {
+  color: white;
+}
+
+.header {
+  background-color: #003459;
+  color: white;
+}
+
+.laptopSection {
+  color: #ff0000;
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+.printersSection {
+  color: black;
+  font-size: 50px;
+}
+
+.phoneSection {
+  color: white;
+  font-size: 50px;
 }
